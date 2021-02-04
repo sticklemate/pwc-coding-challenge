@@ -13,11 +13,11 @@ Weather Widget built with React
 
 Enable locations on your device to get Weather data for the current location
 
-<img alt="weather for current location" src="https://github.com/sticklemate/pwc-coding-challenge/blob/main/docs/gif/location_current.gif?raw=true" width="500" height="500" />
+<img alt="weather for current location" src="https://github.com/sticklemate/pwc-coding-challenge/blob/main/docs/gif/location_current.gif?raw=true" width="550" height="300" />
 
 Search for any city or place and retrieve weather data for the week
 
-<img alt="search weather location" src="https://github.com/sticklemate/pwc-coding-challenge/blob/main/docs/gif/location_search.gif?raw=true" width="500" height="500" />
+<img alt="search weather location" src="https://github.com/sticklemate/pwc-coding-challenge/blob/main/docs/gif/location_search.gif?raw=true" width="550" height="300" />
 
 
 ## Getting Started
