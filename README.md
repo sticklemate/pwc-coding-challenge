@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1e194d44-7650-406d-9f1f-c54876114cf0/deploy-status)](https://app.netlify.com/sites/tender-bohr-6e3fc8/deploys)
+
 # PwC Coding Challenge
 
 Weather Widget built with React
@@ -11,11 +13,11 @@ Weather Widget built with React
 
 Enable locations on your device to get Weather data for the current location
 
-<img alt="weather for current location" src="https://github.com/sticklemate/pwc-coding-challenge/blob/main/docs/gif/location_current.gif?raw=true" width="200" height="100" />
+<img alt="weather for current location" src="https://github.com/sticklemate/pwc-coding-challenge/blob/main/docs/gif/location_current.gif?raw=true" width="500" height="500" />
 
 Search for any city or place and retrieve weather data for the week
 
-<img alt="search weather location" src="https://github.com/sticklemate/pwc-coding-challenge/blob/main/docs/gif/location_search.gif?raw=true" width="200" height="100" />
+<img alt="search weather location" src="https://github.com/sticklemate/pwc-coding-challenge/blob/main/docs/gif/location_search.gif?raw=true" width="500" height="500" />
 
 
 ## Getting Started
@@ -80,7 +82,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 - [ ] Build a proxy server using Express for API requests
 
-- [ ] Unit Testing
+- [ ] Unit Testing is limited at the moment. Need to add more relevant test scenarios
 
 - [ ] Create some mock data to test APIs
 
