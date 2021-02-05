@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1e194d44-7650-406d-9f1f-c54876114cf0/deploy-status)](https://app.netlify.com/sites/tender-bohr-6e3fc8/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1e194d44-7650-406d-9f1f-c54876114cf0/deploy-status)](https://app.netlify.com/sites/pwc-weather-widget/deploys)
 
 # PwC Coding Challenge
 
