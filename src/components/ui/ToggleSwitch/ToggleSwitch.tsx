@@ -1,6 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
+/**
+ * Renders Toggle switch for interacting with weather widget.
+ */
+
 const Switch = styled.label`
   position: relative;
   display: inline-block;
@@ -59,6 +63,7 @@ const ToggleSwitch: React.FC<IToggleSwitchProps> = (props) => {
     <div>
       <p>Switch</p>
     <Switch
+      aria-label="toggle units between metric and imperial"
       onClick={() => {
         setToggled((checked) => !checked);
         props.onClick();

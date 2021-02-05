@@ -4,6 +4,10 @@ import { AppStore } from '../../store/appStore';
 import ForecastItem from './ForecastItem';
 import { ForecastContainer, ForecastItems } from './styled';
 
+/**
+ * Renders daily weather forecast for next week based on given lon/lat coordinates using OWM API
+ */
+
 const Forecast: React.FC = () => {
   const { forecast, isInitial } = useSelector((state: AppStore) => ({
     loading: state.app.isLoading,

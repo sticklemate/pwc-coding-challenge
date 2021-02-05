@@ -19,6 +19,10 @@ import Temperature from './Temperature';
 import ToggleSwitch from '../ui/ToggleSwitch/ToggleSwitch';
 import dayjs from "../../utils/currentDate";
 
+/**
+ * Renders the current weather and weekly forecast for a given location. User
+ * can input new location and change units.
+ */
 const today = dayjs().format("dddd, MMMM Do");
 
 const Weather: React.FC = () => {
@@ -52,7 +56,7 @@ const Weather: React.FC = () => {
           <div style={{ display: 'flex' }}>
             <WeatherIcon code={weather.weather.id} big />
             <span>
-              <Temperature value={weather.main.temp} />
+              <Temperature aria-label="current temperature" value={weather.main.temp} />
               <sup>&deg;</sup>
             </span>
           </div>
@@ -63,13 +67,13 @@ const Weather: React.FC = () => {
         <CurrentWeatherInfo>
           <InfoRow>
             <div>
-              <HumidityIcon /> Humidity
+              <HumidityIcon aria-label="humidity" /> Humidity
             </div>
             <span>{weather.main.humidity}%</span>
           </InfoRow>
           <InfoRow>
             <div>
-              <WindIcon /> Wind
+              <WindIcon aria-label="wind"/> Wind
             </div>
             <span>
               {degreeType === TempUnit.CELCIUS ? weather.wind.speed : kmToMile(weather.wind.speed)}
@@ -78,7 +82,7 @@ const Weather: React.FC = () => {
           </InfoRow>
           <InfoRow>
             <div>
-              <PressureIcon /> Pressure
+              <PressureIcon aria-label="pressure"/> Pressure
             </div>
             <span>{weather.main.pressure}hPa</span>
           </InfoRow>

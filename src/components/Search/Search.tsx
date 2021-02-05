@@ -14,6 +14,7 @@ const Search: React.FC = () => {
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
 
+
   useEffect(() => {
     if (!searchTerm) {
       return;
@@ -40,7 +41,7 @@ const Search: React.FC = () => {
   return (
     <SearchElement>
       <SearchIcon />
-      <DebounceInput element={SearchInput} debounceTimeout={300} onChange={onSearchInputChanged} placeholder="Search for location" />
+      <DebounceInput element={SearchInput} debounceTimeout={300} onChange={onSearchInputChanged} placeholder="Search for location" aria-label="Search for location"/>
       <LocationButton
         onClick={() => {
           if (navigator.geolocation) {
