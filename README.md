@@ -2,8 +2,9 @@
 
 # PwC Coding Challenge
 
-Weather Widget built with React
-[Live Demo] :
+Weather Widget built with React. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+**[Live Demo](https://pwc-weather-widget.netlify.app/)**
 
 ## Tech Stack Used
 
@@ -86,6 +87,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 - [ ] Create some mock data to test APIs
 
+- [ ] Few data elements are not currently available on OWM API (like precipitation & pollen count). Need to see if its possible to retrieve them from any other endpoints
+
 - [ ] Add documentation for components using **Storybook**
 
 
@@ -96,3 +99,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 [Algolia Places](https://community.algolia.com/places/ 'Algolia Places') (Place suggestion API)
 
 [Icons8.com](https://www.icons8.com 'Icons8.com') (Weather icons)
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
